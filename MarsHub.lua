@@ -1,4 +1,3 @@
-if game.PlaceId == 6165420832 then
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
@@ -413,7 +412,7 @@ TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "      MarsTeam Hub Ragdoll Engine"
+TitleBarLabel.Text = "      MarsTeam Hub "
 TitleBarLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
 TitleBarLabel.TextScaled = true
 TitleBarLabel.TextSize = 14.000
