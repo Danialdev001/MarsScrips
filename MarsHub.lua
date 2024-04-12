@@ -1,3 +1,4 @@
+if game.PlaceId == 6165420832 then
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
